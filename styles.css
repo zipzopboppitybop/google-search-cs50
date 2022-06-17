@@ -2,6 +2,7 @@ body {
     font-family: arial,sans-serif;
     background-color: #202124;
     color: #bdc1c6;
+    overflow-x: hidden;
 }
 
 a {
@@ -19,17 +20,20 @@ img{
     margin-top: 9.55%;
 }
 
-#search {
+input{
     position: relative;
-    left: 1000px;
-    top: 25px;
     width: 527px;
-    height: 34px;
-    background-color: #202124;
+    height: 27px;
     border: 1px solid  gray;
-    border-radius: 20px;
     color: white;
     padding-left: 20px;
+    background-color: #202124;
+}
+
+#search {
+    left: 1000px;
+    top: 25px;
+    border-radius: 20px;
 }
 
 #button {
@@ -52,4 +56,85 @@ img{
     top: 330px;
     color: #4487f6;
     font-size: 16px;
+}
+
+h3 {
+    font-weight: normal;
+    color: #f28b82;
+    position: relative;
+    top: 44px;
+    left: 35px;
+    font-size: 20px;
+}
+
+hr {
+    position: relative;
+    top: 50px;
+    color: #3c4043;
+}
+
+span {
+    color: white;
+    position: relative;
+    top: 87px;
+    left: 35px;
+}
+
+label{
+    position: relative;
+    text-align: left;
+    font-size: 12px;
+    color: white;
+}
+
+#foo {
+    top: 110px;
+    left: 35px;
+}
+
+#boo {
+    top: 150px;
+    left: -610px;
+}
+
+#doo {
+    top: 190px;
+    left: -1310px;
+}
+
+#loo {
+    top: 230px;
+    left: -1975px;
+}
+
+#include {
+    left: 128px;
+    top: 110px;
+    height: 29px;
+}
+
+#exact {
+    top: 150px;
+    left: -571px;
+}
+
+#any {
+    top: 190px;
+    left: -1237px;
+}
+
+#none {
+    top: 200px;
+    left: 219px;
+}
+
+#advanced_button {
+    position: relative;
+    top: 250px;
+    left: 90px;
+    width: 124px;
+    height: 30px;
+    background-color: #aecbfa;
+    color: black;
+    padding: 5px 10px;
 }
